@@ -3,7 +3,7 @@ version: '3.8'
 services:
   todo-app:
     build: .
-    container_name: node_todo:latest
+    container_name: node-todo:latest
     ports:
       - "8000:8000"
 
